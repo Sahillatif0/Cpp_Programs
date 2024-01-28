@@ -23,7 +23,7 @@ int main(){
             strs[i].at(len-j-1) = t;
         }
     }
-    for(i=0;i<n;i++){
+    for(i=0;i<n;i++)
         cout<<strs[i]<<" ";
-    }
+    delete[] strs;
 }

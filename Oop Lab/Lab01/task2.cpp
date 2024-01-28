@@ -22,5 +22,5 @@ int main()
             smax = arr[i];
     }
     cout << "Second Highest Number: " << smax << endl;
-    delete arr;
+    delete[] arr;
 }

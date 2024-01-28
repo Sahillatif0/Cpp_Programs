@@ -18,4 +18,5 @@ int main()
                 cout << "(" << i << ", " << j << ")" << endl;
                 break;
             }
+    delete[] arr;
 }
