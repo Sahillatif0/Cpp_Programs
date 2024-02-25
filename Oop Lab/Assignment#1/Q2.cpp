@@ -31,6 +31,7 @@ class Table{
             else cout<<"Table is already empty"<<endl;
         }
         void haveLunch(){
+            cout<<"Table "<<TableNum<<" is having lunch"<<endl;
             clean = false;
         }
 };

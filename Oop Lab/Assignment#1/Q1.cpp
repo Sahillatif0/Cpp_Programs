@@ -115,6 +115,9 @@ class Adopter{
         cout<<endl<<adoptedPetRecords[ind].name<<" has completed todays Training\n\n";
         adoptedPetRecords[ind].displayPetDetails();
     }
+    ~Adopter() {
+    delete[] adoptedPetRecords;
+    }
 };
 void existingAdopter(Adopter *adopters, int adopterCount, Pet *p, int &petCount){
     if(adopterCount == 0){
