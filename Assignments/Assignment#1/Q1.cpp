@@ -240,7 +240,6 @@ void addnewAdopter(Adopter *&adopters, int &adopterCount){
     for(int i = 0; i < adopterCount; i++)
         newadopters[i] = adopters[i];
     newadopters[adopterCount++] = newAdopter;
-    delete [] adopters;
     adopters = newadopters;
     cout<<"\nAdopter Added Successfully\n\n";
 }
