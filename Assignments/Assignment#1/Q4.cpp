@@ -67,7 +67,7 @@ class RollerCoaster{
             speed += sp;
         }
         void slowCoaster(string roll){
-            int sp = roll[7]-'0'==0?(roll[6]-'0'==0?(roll[5]-'0'==0?(roll[4]-'0'==0?3:roll[4]-'0'):roll[5]-'0'):roll[6]-'0'):roll[7]-'0';
+            int sp = roll[4]-'0'==0?(roll[5]-'0'==0?(roll[6]-'0'==0?(roll[7]-'0'==0?3:roll[7]-'0'):roll[6]-'0'):roll[5]-'0'):roll[4]-'0';
             speed -= sp;
         }
 
