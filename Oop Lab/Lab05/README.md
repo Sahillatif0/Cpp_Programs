@@ -68,7 +68,7 @@ You’ll be needing constructors and setters to set these values in case of aggr
 
 Write a program that uses composition to implement a game engine. A game
 engine is made up of several components. \
-For example:\
+For example:
 1.  Graphics rendering engine
 2.  Input handler
 3.  Physics engine
