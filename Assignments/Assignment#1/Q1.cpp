@@ -250,7 +250,11 @@ void petsAvailable(Pet *p, int petCount){
         cout<<endl;
     }
 }
+void displayRollNum(){
+    cout<<"----------------------------"<<endl<<"|  Sahil Latif <<23I0763>> |"<<endl<<"----------------------------"<<endl;
+}
 int main() {
+    displayRollNum();
     int opt;
     srand(time(0));
     Adopter *adopters = new Adopter[1];

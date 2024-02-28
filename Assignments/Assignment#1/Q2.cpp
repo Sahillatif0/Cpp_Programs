@@ -58,9 +58,12 @@ void EmptyTable(Table *t,int totalTbls, int TabNum ){
         }
     }
 }
-
+void displayRollNum(){
+    cout<<"----------------------------"<<endl<<"|  Sahil Latif <<23I0763>> |"<<endl<<"----------------------------"<<endl;
+}
 int Table::totalTables = 0;
 int main(){
+    displayRollNum();
     Table tables[5] = {Table(8),Table(8),Table(4),Table(4),Table(4)};
     OccupyTable(tables,5,4,false);
     OccupyTable(tables,5,6,true);

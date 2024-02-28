@@ -110,7 +110,11 @@ class ChessBoard{
         delete [] board;
     }
 };
+void displayRollNum(){
+    cout<<"----------------------------"<<endl<<"|  Sahil Latif <<23I0763>> |"<<endl<<"----------------------------"<<endl;
+}
 int main(){
+    displayRollNum();
     ChessBoard cb;
     cb.display();
     if(cb.movePiece("b1","c3"))
