@@ -152,6 +152,10 @@ class FirewallTool: public SecurityTool{
                 }
             }
         }
+    ~FirewallTool(){
+        delete[] ports;
+        delete[] protocols;
+    }
 };
 int main() {
     cout<<endl<<endl<<"Coded By: Sahil Latif (23i0763)"<<endl<<endl;
