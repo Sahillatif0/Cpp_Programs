@@ -73,7 +73,7 @@ int main() {
     p1.displayLoyaltyPoints();
     p1.redeemLoyaltyPoints(15);   
     p1.displayLoyaltyPoints();
-    p1.addLoyaltyPoints(20);  
+    p1.addLoyaltyPoints(-20);
     p1.displayLoyaltyPoints();
     p1.redeemLoyaltyPoints(15);   
     p1.displayLoyaltyPoints();
