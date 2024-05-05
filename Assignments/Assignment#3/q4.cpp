@@ -71,6 +71,9 @@ class RaconDrone: public Drone{
 
 };
 int main() {
+    cout<<"=============================="<<endl
+        <<"|   Sahil Latif <23I0763>     |"<<endl
+        <<"=============================="<<endl<<endl;
     RaconDrone rd(0, 0, 0, 10, "4k", 30);
     rd.takeoff();
     rd.navigateTo(10, 10, 10);
