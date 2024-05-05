@@ -89,3 +89,8 @@ class Counter{
         void Search_Medicine(vector<Medicine> med, string name);
         void Update_Revenue(double newBillPayment);
 };
+int main(){
+    cout<<"=============================="<<endl
+        <<"|   Sahil Latif <23I0763>     |"<<endl
+        <<"=============================="<<endl<<endl;
+}
