@@ -25,21 +25,21 @@ public:
     }
     void storeInFile(string fileName){
         fstream myFile;
-        myFile.open(fileName, ios::in);
+        myFile.open(fileName, ios::out);
         for(int i=0;i<N;i++)
             myFile<<arr[i]<<endl;
         myFile.close();
     }
     void copyFileContent(string file1, string file2){
         fstream myFile1, myFile2;
-        myFile1.open(file1);
-        myFile2.open(file2);
+        myFile1.open(file1, ios::in);
+        myFile2.open(file2, ios::out);
         while(1){
             U a;
             myFile1>>a;
             if(myFile1.eof())
                 break;
-            myFile2<<a;
+            myFile2<<a<<endl;
         }
         myFile1.close();
         myFile2.close();
